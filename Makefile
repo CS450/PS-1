@@ -8,5 +8,5 @@ p3assembly.s: p3.cpp
 	g++ -std=c++11 -S -o p3.s p3.cpp
 
 clean: 
-	rm -f *.o *~ *.x *.s
+	rm -f *.o *~ *.x p3assembly.s p3.s
 

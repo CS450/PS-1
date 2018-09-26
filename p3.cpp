@@ -74,4 +74,8 @@ The work that each call, for my functions and the syscall must follow are repres
  4.)it will then make a ret call and end the procedure. 
  5.)the system call has sgnificantly more instructions that it must perform to 
     communicate back and forth with the kernal. 
+
+The user function is anywhere from 3 to 4 times faster than the system call. When
+a user function has to access multiple items on the heap and make changes, it slows the function down by a little, but it is still 3 times faster than the system call
+
 */

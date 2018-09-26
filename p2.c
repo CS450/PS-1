@@ -1,4 +1,5 @@
 /*
+Authors: Brandon Williams and Skyler Penna
 CS450-Problemset 1 #2:
 What: This program sets an alarm and exits after 3 seconds.
 Why: The signal is called in main using SIGALRM, and alarm_handler as its types.

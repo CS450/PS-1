@@ -1,3 +1,9 @@
+/*Authors: Brandon Williams and Skyler Penna
+ *Assignment: PS-1
+ *Class: CS 450
+ *Date: 9/25/2018
+ *File: p3.cpp
+*/
 #include <iostream>
 #include <chrono>
 #include <unistd.h>
